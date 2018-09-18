@@ -11,7 +11,6 @@ type ErrMsg interface {
 	Caller() std.Caller
 	Code() std.Code
 	Error() string
-	String() string
 	Msg() string
 	SetCode(std.Code) ErrMsg
 	Trace() std.Trace
